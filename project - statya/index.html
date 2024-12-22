@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Погляд через Слово</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <aside class="cookies-agreement">
+        <p>Поки ви знаходитесь на нашому сайті та читаєте новини, ми використовуємо ваші Cookies. Дуже сподіваємось, що ви не проти.</p>
+        <button class="button cookies-button" type="button">Окей, продовжуйте</button>
+    </aside>
+    <button class="up-button">↑</button>
+    <div class="container">
+    <header>
+        <div class="logo">
+            <img src="img/logo.jpg" alt="Логотип">
+            <span>Погляд через Слово</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about-us">Головна</a></li>
+                <li><a href="#articles">Список</a></li>
+                <li><a href="#contacts">Контакти</a></li>
+            </ul>
+        </nav>
+        <button id="theme-button" class="theme-button"><span>Змінити тему</span></button>
+    </header>
+
+    <main>
+        <section id="about-us" class="about-us">
+            <p class="about">
+                Погляд через Слово - це сайт, присвячений глибоким і змістовним статтям на різноманітні теми.
+                Кожен матеріал на нашому сайті ретельно досліджений і написаний з метою розкрити важливі ідеї,
+                події чи явища, пропонуючи нові перспективи та роздуми.
+            </p>
+            <div class="triangle-container">
+                <a href="secret.html"><div class="triangle"></div></a>
+            </div>
+        </section>
+
+        <section class="articles" id="articles">
+            <div class="list-header">
+                <h2>Список</h2>
+                <select name="news-filter" class="filter">
+                    <option value="teenage">Підлітковість</option>
+                    <option value="tech">Технології</option>
+                    <option value="retro">Ретро</option>
+                    <option value="architecture">Архітектура</option>
+                    <option value="sport">Спорт</option>
+                    <option value="reading">Читання</option>
+                    <option value="all" selected>Всі новини</option>
+                </select>                          
+            </div>
+            <div class="article-list">
+                <div class="article-card article-card" data-category="teenage"><a href="article.html">
+                    <h3>Підлітковий вік — найкращий час у житті?</h3>
+                    <p>Натисніть щоб побачити більше...</p>
+                    <p>#teenage</p></a>
+                </div>
+                <div class="article-card1 article-card" data-category="architecture"><a href="article1.html">
+                    <h3>Бруталізм у архітектурі</h3>
+                    <p>Натисніть щоб побачити більше...</p>
+                    <p>#architecture</p></a>
+                </div>
+                <div class="article-card2 article-card" data-category="tech"><a href="article2.html">
+                    <h3>Криптовалюта</h3>
+                    <p>Натисніть щоб побачити більше...</p>
+                    <p>#tech</p></a>
+                </div>
+                <div class="article-card3 article-card" data-category="retro"><a href="article3.html">
+                    <h3>Ретро</h3>
+                    <p>Натисніть щоб побачити більше...</p>
+                    <p>#retro</p></a>
+                </div>
+                <div class="article-card4 article-card" data-category="tech"><a href="article4.html">
+                    <h3>Стрімерство</h3>
+                    <p>Натисніть щоб побачити більше...</p>
+                    <p>#tech</p></a>
+                </div>
+                <div class="article-card5 article-card" data-category="sport"><a href="article5.html">
+                    <h3>Тенніс</h3>
+                    <p>Натисніть щоб побачити більше...</p>
+                    <p>#sport</p></a>
+                </div>
+                <div class="article-card6 article-card" data-category="sport"><a href="article6.html">
+                    <h3>Стилі танцю</h3>
+                    <p>Натисніть щоб побачити більше...</p>
+                    <p>#sport</p></a>
+                </div>
+                <div class="article-card7 article-card" data-category="reading"><a href="article7.html">
+                    <h3>Як читання змінює життя</h3>
+                    <p>Натисніть щоб побачити більше...</p>
+                    <p>#reading</p></a>
+                </div>
+                <div class="article-card8 article-card" data-category="sport"><a href="article8.html">
+                    <h3>Формула 1</h3>
+                    <p>Натисніть щоб побачити більше...</p>
+                    <p>#sport</p></a>
+                </div>
+                <div class="article-card9 article-card" data-category="tech"><a href="article9.html">
+                    <h3>Музика</h3>
+                    <p>Натисніть щоб побачити більше...</p>
+                    <p>#tech</p></a>
+                </div>
+                <div class="article-card10 article-card" data-category="architecture"><a href="article10.html">
+                    <h3>Shipping container</h3>
+                    <p>Натисніть щоб побачити більше...</p>
+                    <p>#architecture</p></a>
+                </div>
+            </div>
+        </section>
+        <div class="forum">
+            <h1 class="forums">А також форуми інших розробників</h1>
+            <div class="forum-cont">
+                <a href="https://github.com/Jonh2341/Project-Forum" class="foru1">Форум 1</a>
+                <a href="https://illia1708.github.io/project_X/" class="foru2">Форум 2</a>
+                <a href="https://dima387.github.io/forum-project/" class="foru3">Форум 3</a>
+                <a href="https://github.com/IlliaPetroff/Forum-Retro" class="foru4">Форум 4</a>
+                <a href="https://github.com/14AndrewJamesMuller88/Andrew-Janes-Muller-Site/tree/main" class="foru5">Форум 5</a>
+                <a href="https://github.com/vladmar1k/Forum.git" class="foru6">Форум 6</a>
+                <a href="https://github.com/IlliaZeldis/project.git" class="foru7">Форум 7</a>
+            </div>
+        </div>
+        
+    </main>
+
+    <footer id="contacts">
+        <p>© Погляд через Слово</p>
+        <p><a href="https://www.tiktok.com">Tiktok</a></p>
+        <p><a href="https://www.instagram.com">Instagram</a></p>
+    </footer></div>
+</div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

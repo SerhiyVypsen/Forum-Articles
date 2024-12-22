@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #B0CEFF;
+    padding: 20px;
+    max-width: 1280px;
+    margin: auto;
+ }
+
+
+ header {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 10px 20px;
+   background-color: #819DC9;
+   color: #fff;
+   box-shadow: 0px 7px 4px 0px rgba(0,0,0,0.35);
+   margin-bottom: 40px;
+}
+
+header .logo {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+header div img {
+   border-radius: 90px;
+   width: 70px;
+   height: 70px;
+}
+header nav ul {
+   list-style: none;
+   display: flex;
+   gap: 24px;
+   padding: 0;
+   margin: 0;
+}
+
+header nav ul li a {
+   text-decoration: none;
+   color: #fff;
+   font-family: "Open Sans", sans-serif;
+   font-size: 24px;
+}
+header nav ul li:nth-child(2), header nav ul li:nth-child(3) {
+   border-left: 1px solid #000;
+   padding-left: 24px;
+}
+header div span {
+   font-size: 32px;
+   color: #FFFFFF;
+   font-family: "Comfortaa", sans-serif;
+}
+
+.title-article {
+   text-align: left;
+   margin-left: 30px;
+   margin-bottom: 40px;
+   color: #000;
+   font-size: 36px;
+}
+
+main {
+   background-color: #d6e0f5;
+   border-radius: 10px;
+   padding: 20px;
+   margin-bottom: 40px;
+}
+.teenage-life {
+   margin-bottom: 20px;
+}
+.top-top {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 20px;
+}
+.text-article {
+   font-size: 24px;
+   font-family: "Open Sans", sans-serif;
+}
+
+ h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #000;
+ }
+ .comment-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: #819DC9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+ }
+ .comment-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+ }
+ .comment-field:focus {
+    outline: none;
+    border-color: #007bff;
+ }
+ .submit-button {
+    padding: 10px 15px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-end;
+ }
+ .submit-button:hover {
+    background-color: #0056b3;
+ }
+ .comment-list {
+    margin-top: 20px;
+    list-style: none;
+ }
+ .user-comment {
+    background: #819DC9;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    color: #FFFFFF;
+ }
+
+ footer {
+   text-align: center;
+   background-color: #5b77a3;
+   display: flex;
+   justify-content: space-around;
+   color: #ffffff;
+   padding: 10px;
+   margin-top: 20px;
+}
+footer p {
+   font-size: 28px;
+   font-family: "Comfortaa", sans-serif;
+}
+footer p a {
+   text-decoration: none;
+   color: #ffffff;
+}
+
+.heart {
+   background-image: url("../img/download.png");
+   width: 40px;
+   height: 40px;
+  }
+  .heart.added {
+   background-image: url("../img/heart.png");
+  }
+.like-cont {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+  
